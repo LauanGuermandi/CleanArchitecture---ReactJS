@@ -1,6 +1,6 @@
-import { HttpPostClient, HttpPostParams } from 'data/protocols/http/http-post-client'
+import { HttpPostClient, HttpPostParams } from '@/data/protocols/http/http-post-client'
 
-class HttpPostClientSpy implements HttpPostClient {
+export class HttpPostClientSpy implements HttpPostClient {
   url?: string
   body?: object
 
@@ -10,5 +10,3 @@ class HttpPostClientSpy implements HttpPostClient {
     return Promise.resolve()
   }
 }
-
-export default HttpPostClientSpy
