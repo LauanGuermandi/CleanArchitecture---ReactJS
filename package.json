@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "jest.config.js",
-  "dependencies": {},
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.2"
+  },
   "devDependencies": {
     "@types/faker": "^4.1.12",
     "@types/jest": "^26.0.9",
