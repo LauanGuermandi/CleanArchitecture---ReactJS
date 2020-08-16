@@ -1,5 +1,5 @@
 import { HttpPostClient } from 'data/protocols/http'
-import { HttpStatusCode, HttpResponse } from '@/data/protocols/http'
+import { HttpStatusCode } from '@/data/protocols/http'
 import { AuthenticationParams } from '@/domain/usecases'
 import { InvalidCredentialsError, UnexpectedError } from '@/domain/errors'
 import { AccountModel } from '@/domain/models'
@@ -10,7 +10,7 @@ class RemoteAuthentication {
     private readonly httpPostClient: HttpPostClient<AuthenticationParams, AccountModel>
   ) {}
 
-  async auth (params: AuthenticationParams): Promise<HttpResponse<AccountModel>> {
+  async auth (params: AuthenticationParams): Promise<AccountModel> {
     const httpResponse = await this.httpPostClient.post({
       url: this.url,
       body: params
