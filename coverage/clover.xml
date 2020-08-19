@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597575413663" clover="3.2.0">
-  <project timestamp="1597575413664" name="All files">
-    <metrics statements="55" coveredstatements="53" conditionals="11" coveredconditionals="9" methods="14" coveredmethods="14" elements="80" coveredelements="76" complexity="0" loc="55" ncloc="55" packages="8" files="14" classes="14"/>
+<coverage generated="1597731985377" clover="3.2.0">
+  <project timestamp="1597731985377" name="All files">
+    <metrics statements="64" coveredstatements="62" conditionals="11" coveredconditionals="9" methods="16" coveredmethods="16" elements="91" coveredelements="87" complexity="0" loc="64" ncloc="64" packages="9" files="16" classes="16"/>
     <package name="data.protocols.http">
       <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="http-response.ts" path="C:\Users\PICHAU\Desktop\react\src\data\protocols\http\http-response.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
       <file name="index.ts" path="C:\Users\PICHAU\Desktop\react\src\data\protocols\http\index.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
       </file>
     </package>
     <package name="data.test">
-      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="C:\Users\PICHAU\Desktop\react\src\data\test\index.ts">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
       </file>
       <file name="mock-http-client.ts" path="C:\Users\PICHAU\Desktop\react\src\data\test\mock-http-client.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="6" type="stmt"/>
         <line num="12" count="6" type="stmt"/>
         <line num="13" count="6" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="mock-http-post.ts" path="C:\Users\PICHAU\Desktop\react\src\data\test\mock-http-post.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
       </file>
     </package>
     <package name="data.usecases.authentication">
@@ -121,6 +127,18 @@
         <line num="6" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="7" count="2" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.test">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="mock-axios.ts" path="C:\Users\PICHAU\Desktop\react\src\infra\test\mock-axios.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
       </file>
     </package>
   </project>
